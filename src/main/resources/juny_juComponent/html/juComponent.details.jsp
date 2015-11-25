@@ -38,4 +38,4 @@
 
 
 
-<img src="/files/default${currentNode.properties['image'].node.canonicalPath}" />
+<img src="${currentNode.properties['image'].node.url}" />

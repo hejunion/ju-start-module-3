@@ -20,7 +20,7 @@
 
 <h2>${currentNode.properties['title'].string}</h2>
 
-<img src="/files/default/sites/justart/files/images/${currentNode.properties['image'].node.name}" />
+<img src="${currentNode.properties['image'].node.url}" />
 
 <p> 
   <a href="details.html"> Details</a>
