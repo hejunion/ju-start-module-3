@@ -1,0 +1,10 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<juny = 'http://net.jsure/jahia/junt/1.0'>
+
+[juny:juComponent] > jnt:content, jmix:basicContent
+ - title (string)
+ - body (string, richtext)
+ - image (weakreference, picker[type='image'])
+ - fallbackParrent (weakreference) < 'juny:juComponent'
+
